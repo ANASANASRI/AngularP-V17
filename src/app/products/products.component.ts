@@ -10,15 +10,13 @@ export class ProductsComponent implements OnInit {
 
   constructor(private productService: ProductService) {
   }
-
   ngOnInit() {
     this.getProducts();
   }
-
   products: any[] = [];
-
   getProducts() {
-    this.productService.getProducts().subscribe(
+    this.productService.getProducts()
+      .subscribe(
       (resp: any) => {
         this.products = resp.body;
       },
@@ -28,4 +26,15 @@ export class ProductsComponent implements OnInit {
     );
   }
 
+  handledelete({ product }: { product: any }) {
+    this.productService.deleteProduct(product)
+      .subscribe(
+      (resp: any) => {
+        this.getProducts();
+      },
+      (error) => {
+        console.error('Une erreur s\'est produite lors de la suppression du produit.', error);
+      }
+    );
+  }
 }
