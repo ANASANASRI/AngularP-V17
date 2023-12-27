@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "category": "Electronics",
+      "price": 999.99,
+      "stock": 50,
+      "image": "https://img.freepik.com/vecteurs-libre/nouvelle-banniere-ruban-vecteur-3d-tag-nouveau-web-marketing-numerique-badge-collection_40876-3389.jpg?w=740&t=st=1703672068~exp=1703672668~hmac=fcca06c9b6fc7d38f0d1340fd6f0dd300d42201b5d8db0c4415c665a7335bb8c"
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "category": "Electronics",
+      "price": 499.99,
+      "stock": 100,
+      "image": "https://img.freepik.com/vecteurs-libre/nouvelle-banniere-ruban-vecteur-3d-tag-nouveau-web-marketing-numerique-badge-collection_40876-3389.jpg?w=740&t=st=1703672068~exp=1703672668~hmac=fcca06c9b6fc7d38f0d1340fd6f0dd300d42201b5d8db0c4415c665a7335bb8c"
+    },
+    {
+      "id": 3,
+      "name": "Coffee Maker",
+      "category": "Kitchen Appliances",
+      "price": 79.99,
+      "stock": 30,
+      "image": "https://img.freepik.com/vecteurs-libre/nouvelle-banniere-ruban-vecteur-3d-tag-nouveau-web-marketing-numerique-badge-collection_40876-3389.jpg?w=740&t=st=1703672068~exp=1703672668~hmac=fcca06c9b6fc7d38f0d1340fd6f0dd300d42201b5d8db0c4415c665a7335bb8c"
+    },
+    {
+      "id": 4,
+      "name": "Bluetooth Headphones",
+      "category": "Electronics",
+      "price": 129.99,
+      "stock": 20,
+      "image": "https://img.freepik.com/vecteurs-libre/nouvelle-banniere-ruban-vecteur-3d-tag-nouveau-web-marketing-numerique-badge-collection_40876-3389.jpg?w=740&t=st=1703672068~exp=1703672668~hmac=fcca06c9b6fc7d38f0d1340fd6f0dd300d42201b5d8db0c4415c665a7335bb8c"
+    },
+    {
+      "id": 5,
+      "name": "Running Shoes",
+      "category": "Sports",
+      "price": 89.99,
+      "stock": 40,
+      "image": "https://media.istockphoto.com/id/1197832105/vector/male-hand-holding-megaphone-with-new-product-speech-bubble-loudspeaker-banner-for-business.webp?s=1024x1024&w=is&k=20&c=yA3bC3qNuP8Kur0lZgpAwooYd5IGU0FlVLT17H2V8TQ="
+    }
+  ]
+}
