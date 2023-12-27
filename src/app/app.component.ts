@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'BrosCode';
+
+  actions : Array<any> =[
+    {title:"home" , "routes":"/home" , icon:"house"},
+    {title:"products" , "routes":"/products" , icon:"safe"},
+    {title:"addproduct" , "routes":"/addproduct" , icon:"safe"}
+  ];
+
+  currentActin: any;
+
+  setCurrentAction(currentActin: any) {
+    this.currentActin=currentActin;
+  }
 }
