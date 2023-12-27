@@ -8,8 +8,16 @@
 ### -3--------
 ![RESULTS](captures/Capture3.JPG)
 
-
 ## Ex2
+### -1--------
+![SERVICE PRODUCT](captures/Capture4.JPG)
+### -2--------
+![PRODUCT COMPONENT](captures/Capture5.JPG)
+### -3--------
+![HTML](captures/Capture6.JPG)
+
+
+## Ex3
 ### -1--NEW PRODUCT COMPONENT------
 ![VARIABLES](captures/Screenshot2.png)
 ### -2--FORMULAIRE HTML------
